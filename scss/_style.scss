@@ -1,0 +1,34 @@
+body {
+    min-height: 100vh;
+    background: url("../images/bg-intro-desktop.png");
+    background-color: $colorRed;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.terms-text {
+    font-size: 0.8rem;
+    color: $colorGrayishBlue;
+}
+
+ 
+
+.try-it,
+.form-box {
+    border-radius: 0.6rem;
+}
+
+@media(max-width: 576px) {
+    .terms-text {
+        font-size: 0.5rem;
+
+    }
+
+    .form-control {
+        font-size: 0.7rem !important;
+        // font-weight: normal!important;
+    }
+}
