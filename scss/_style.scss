@@ -1,12 +1,10 @@
 body {
-    min-height: 100vh;
     background: url("../images/bg-intro-desktop.png");
-    background-color: $colorRed;
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
 }
 
 .terms-text {
@@ -14,21 +12,23 @@ h1 {
     color: $colorGrayishBlue;
 }
 
- 
-
 .try-it,
 .form-box {
     border-radius: 0.6rem;
 }
 
 @media(max-width: 576px) {
-    .terms-text {
-        font-size: 0.5rem;
-
+    body {
+        background: url("../images/bg-intro-mobile.png");
     }
 
-    .form-control {
-        font-size: 0.7rem !important;
-        // font-weight: normal!important;
+    h1 {
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
+
+    .form-control,
+    .attribution {
+        font-size: 0.8rem !important;
     }
 }
